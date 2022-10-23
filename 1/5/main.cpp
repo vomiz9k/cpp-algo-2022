@@ -8,6 +8,8 @@ public:
     double Volume() const {
         return height * Square();
     }
+    // К этому классу есть одно замечание.
+    // В качестве подсказки рекомендую еще раз посмотреть презентацию к первой лекции.
 };
 
 class Box: public Prism {
