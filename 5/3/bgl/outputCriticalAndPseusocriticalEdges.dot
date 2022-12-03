@@ -1,0 +1,14 @@
+graph G {
+0;
+1;
+2;
+3;
+4;
+0--1  [color=firebrick1, index=0, label=1];
+1--2  [color=firebrick1, index=1, label=1];
+2--3  [color=dodgerblue4, index=2, label=2];
+0--3  [color=dodgerblue4, index=3, label=2];
+0--4  [color=dodgerblue4, index=4, label=3];
+3--4  [color=dodgerblue4, index=5, label=3];
+1--4  [color=gray0, index=6, label=6];
+}
